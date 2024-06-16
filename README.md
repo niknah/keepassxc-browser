@@ -1,5 +1,14 @@
 # KeePassXC-Browser
 
+The normal keepassxc browser addon inserts almost 200kb of content scripts into every web page(including frames) that you visit whether the page has a login or not.  This alternative extension doesn't activate until you click on the puzzle on the top right of the browser -> keepassxc -> redetect.
+
+You can also right click on the puzzle menu entry and pick "pin to toolbar" for quicker access.
+
+To install in Firefox: `git clone https://github.com/niknah/keepassxc-browser.git`
+Click the menu on the top right of browser -> addons -> gear on the top right -> install addon from file -> pick the manifest.json file.
+
+
+
 Browser extension for [KeePassXC](https://keepassxc.org/) with [Native Messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging).
 
 Based on [pfn](https://github.com/pfn)'s [chromeIPass](https://github.com/pfn/passifox).
